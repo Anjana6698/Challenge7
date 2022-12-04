@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+        body {
+            font-family: 'Times New Roman';
+            -webkit-font-smoothing: antialiased;
+            background: rgba( 246, 241, 244, 0.8);
+        }
+        h2 {
+            text-align: center;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            padding: 30px 0;
+        }
+
+        .table-wrapper {
+            margin: 20px 250px 250px;
+            box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+        }
+        .fl-table {
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: normal;
+            border: none;
+            border-collapse: collapse;
+            width: 50%;
+            max-width: 50%;
+            white-space: nowrap;
+            background-color: green;
+        }
+            .fl-table td, .fl-table th {
+                text-align: center;
+                padding: 8px;
+            }
+            .fl-table td {
+                color: #ffffff;
+                border-right: 4px solid #ff0000;
+                border-left: 4px solid #ff0000;
+                border-bottom: 4px solid #ff0000;
+                font-size: 12px;
+            }
+            .fl-table thead th {
+                color: #000000;
+                background: #ffd800;
+                border-right: 4px solid #ff0000;
+                border-left: 4px solid #ff0000;
+                border-top: 4px solid #ff0000;
+                border-bottom: 4px solid #ff0000;
+            }
+            .fl-table td, .fl-table th {
+                padding: 20px .625em .625em .625em;
+                height: 60px;
+                vertical-align: middle;
+                box-sizing: border-box;
+                overflow-x: hidden;
+                overflow-y: auto;
+                width: 120px;
+                font-size: 13px;
+                text-overflow: ellipsis;
+            }
+        .f2-table {
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: normal;
+            border: none;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 100%;
+            white-space: nowrap;
+            background-color: white;
+        }
+        .f2-table td, .f2-table th {
+            text-align: center;
+            padding: 8px;
+        }
+
+        .f2-table td {
+            color: #000000;
+            font-size: 12px;
+        }
+        .f2-table td, .f2-table th {
+            padding: 20px .625em .625em .625em;
+            height: 50px;
+            vertical-align: middle;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            overflow-y: auto;
+            width: 200px;
+            font-size: 13px;
+            text-overflow: ellipsis;
+        }
+        .f2-table tbody tr:nth-child(odd) {
+            background:#00ff21;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <div class="table-wrapper">
+            <table class="fl-table">
+                <thead>
+                    <tr>
+                        <th>RollNo</th>
+                        <th>Name</th>
+                        <th>Team</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>John</td>
+                        <td>Red</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Peter</td>
+                        <td>Blue</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>Henry</td>
+                        <td>Green</td>
+                    </tr>
+                <tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <div class="table-wrapper">
+                <table class="f2-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Designation</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Steve</td>
+                            <td>Manager</td>
+                            <td>1,00,000</td>
+                        </tr>
+                        <tr>
+                            <td>SURAJ</td>
+                            <td>Assistant Manager</td>
+                            <td>50,000</td>
+                        </tr>
+                        <tr>
+                            <td>Khushboo</td>
+                            <td>Analyst</td>
+                            <td>65,000</td>
+                        </tr>
+                        <tr>
+                            <td>Kartik</td>
+                            <td>Worker</td>
+                            <td>20,000</td>
+                        </tr>
+                        <tr>
+                            <td>Saksham</td>
+                            <td>Worker</td>
+                            <td>20,000</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+<tbody>
+                </table>
+
+            </div>
+    </form>
+
+</body>
+</html>
